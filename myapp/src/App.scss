@@ -1,0 +1,27 @@
+:root {
+	--pink: #f65c5c;
+	--gray: #37342b;
+	--blue: #286275;
+	--yellow: #ffc738;
+	--red: #963737;
+}
+$pink: --pink;
+$gray: --gray;
+$blue: --blue;
+$yellow: --yellow;
+$red: --red;
+
+html,
+body {
+	background-color: var($gray);
+}
+
+.main {
+	max-width: 414px;
+	margin: 0 auto;
+
+	.card {
+		background-color: white;
+		border-bottom: 1px solid;
+	}
+}
